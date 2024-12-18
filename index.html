@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WITH LOVE LOVE</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fef9f8;
+            color: #333;
+        }
+        h1, p {
+            margin: 0;
+        }
+
+        /* Index Page */
+        .index {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            background: linear-gradient(to bottom right, #ffe4e1, #fad0c4);
+            color: #444;
+            animation: fadeIn 1s ease-in;
+        }
+        .index h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .index p {
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+            color: #666;
+        }
+        .index button {
+            padding: 12px 25px;
+            font-size: 1.1rem;
+            color: #fff;
+            background-color: #e63946;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s;
+        }
+        .index button:hover {
+            background-color: #d62839;
+            transform: translateY(-2px);
+        }
+
+        /* Gallery Page */
+        .gallery {
+            display: none;
+            padding: 20px;
+            background-color: #000000;
+            min-height: 100vh;
+        }
+
+        .gallery-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .gallery-header h1 {
+            font-size: 2.5rem;
+            color: #ffffff;
+        }
+
+        .date-frame {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 2px solid #ff0bfb;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: #fff;
+        }
+        .date-frame h2 {
+            text-align: center;
+            color: #e63946;
+            margin-bottom: 15px;
+        }
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .gallery-item {
+            text-align: center;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+        }
+        .gallery-item img, .gallery-item video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .gallery-item p {
+            font-size: 0.9rem;
+            color: #555;
+            margin-top: 8px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <!-- Index Section -->
+    <div class="index" id="index">
+        <h1>Welcome to Our Memory Lane</h1>
+        <p>A special place where we keep our cherished moments together. ❤</p>
+        <button onclick="proceedToGallery()">Proceed...</button>
+    </div>
+
+    <!-- Gallery Section -->
+    <div class="gallery" id="gallery">
+        <div class="gallery-header">
+            <h1>WITH LOVE LOVE ❤❤❤</h1>
+        </div>
+
+<!-- April 09, 2024 -->
+<div class="date-frame">
+    <h2>April 09, 2024</h2>
+    <div class="gallery-container">
+        <div class="gallery-item"><img src="image1.jpg" alt="Photo 1"></div>
+        <div class="gallery-item"><img src="image2.jpg" alt="Photo 2"></div>
+        <div class="gallery-item"><img src="image3.jpg" alt="Photo 3"></div>
+        <div class="gallery-item"><img src="image4.jpg" alt="Photo 4"></div>
+
+    </div>
+    <div><p><i><b>Note: Medyo nahihiya pa hehe</b></i></p></div> <!-- Added note -->
+</div>
+
+<!-- April 21, 2024 -->
+<div class="date-frame">
+    <h2>April 21, 2024</h2>
+    <div class="gallery-container">
+        <div class="gallery-item"><img src="image5.jpg" alt="Photo 1"></div>
+        <div class="gallery-item"><img src="image6.jpg" alt="Photo 2"></div>
+        <div class="gallery-item"><img src="image7.jpg" alt="Photo 3"></div>
+        <div class="gallery-item"><img src="image8.jpg" alt="Photo 4"></div>
+        <div class="gallery-item">
+            <video controls>
+                <source src="video1.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div><i><p><b>Note: Dream Cometrue!!! Umuwing super happy!!! hehe</b></i></p></div> <!-- Added note -->
+</div>
+
+<!-- May 05, 2024 -->
+<div class="date-frame">
+    <h2>May 05, 2024</h2>
+    <div class="gallery-container">
+        <div class="gallery-item"><img src="image9.jpg" alt="Photo 1"></div>
+        <div class="gallery-item"><img src="image10.jpg" alt="Photo 2"></div>
+        <div class="gallery-item"><img src="image11.jpg" alt="Photo 3"></div>
+        <div class="gallery-item"><img src="image12.jpg" alt="Photo 4"></div>
+    </div>
+    <div><p><i><b>Note: Our first hehe</b></i></p></div> <!-- Added note -->
+</div>
+
+<!-- May 22, 2024 -->
+<div class="date-frame">
+    <h2>May 22, 2024</h2>
+    <div class="gallery-container">
+        <div class="gallery-item"><img src="image13.jpg" alt="Photo 1"></div>
+        <div class="gallery-item"><img src="image14.jpg" alt="Photo 2"></div>
+        <div class="gallery-item"><img src="image15.jpg" alt="Photo 3"></div>
+        <div class="gallery-item"><img src="image16.jpg" alt="Photo 4"></div>
+    </div>
+    <div><p><i><b>Note: Our Second hehe... thou walang maayus na pic importante kasama ka<3 </b></i></p></div> <!-- Added note -->
+</div>
+
+<!-- May 25, 2024 -->
+<div class="date-frame">
+    <h2>May 25, 2024</h2>
+    <div class="gallery-container">
+        <div class="gallery-item"><img src="image17.jpg" alt="Photo 1"></div>
+        <div class="gallery-item"><img src="image18.jpg" alt="Photo 2"></div>
+        <div class="gallery-item"><img src="image19.jpg" alt="Photo 3"></div>
+        <div class="gallery-item"><img src="image20.jpg" alt="Photo 4"></div>
+    </div>
+    <div><p><i><b>Note: Biglaang lakad with love love hehe </b></i></p></div> <!-- Added note -->
+</div>
+
+<!-- May 27, 2024 -->
+<div class="date-frame">
+    <h2>May 27, 2024</h2>
+    <div class="gallery-container">
+        <div class="gallery-item"><img src="image21.jpg" alt="Photo 1"></div>
+        <div class="gallery-item"><img src="image22.jpg" alt="Photo 2"></div>
+        <div class="gallery-item"><img src="image23.jpg" alt="Photo 3"></div>
+        <div class="gallery-item"><img src="image24.jpg" alt="Photo 4"></div>
+        <div class="gallery-item">
+            <video controls>
+                <source src="video2.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div><p><i><b>Note: Last and most memorable date... Uwi na ikaw pwease huhu ToT</b></i></p></div> <!-- Added note -->
+</div>
+
+    <script>
+        function proceedToGallery() {
+            document.getElementById('index').style.display = 'none';
+            document.getElementById('gallery').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
